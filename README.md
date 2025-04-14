@@ -19,9 +19,12 @@ The goal of this project is to build a machine learning model that can predict w
 - `flair`, `is_text_post`, `subreddit`
 
 ### 🎯 Target Variable
-A binary label `is_viral` was created:
-```python
-is_viral = upvotes >= 500
+
+A binary label `is_viral` was created based on the number of upvotes.  
+Posts with `upvotes ≥ 500` were labeled as viral (`1`), otherwise non-viral (`0`):
+
+
+
 
 
 
